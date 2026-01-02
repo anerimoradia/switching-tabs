@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main class="tabs-project">
+        <header class="project-header">
+            <h1>Tabs Components</h1>
+            <p>Simple tabs component with CSS and JavaScript. Clicking each tab should hide the content of the other tabs and display the content of the selected tab. The first tab is active by default.</p>
+        </header>
+        <nav class="tabs-navigation" aria-label="Tabs Navigation">
+            <button class="tab active" data-tab="tab-1" aria-selected="true">
+                First Tab
+            </button>
+            <button class="tab" data-tab="tab-2" aria-selected="false">
+                Second Tab
+            </button>
+            <button class="tab" data-tab="tab-3" aria-selected="false">
+                Third Tab
+            </button>
+            <button class="tab" data-tab="tab-4" aria-selected="false">
+                Fourth Tab 
+            </button>
+        </nav>
+
+        <section class="tabs-content">
+            <article id="tab-1" class="tab-panel active">
+                <p>First Tab content to be displayed here</p>
+            </article>
+            <article id="tab-2" class="tab-panel">
+                <p>Second Tab content to be displayed here</p>
+            </article>
+            <article id="tab-3" class="tab-panel">
+                <p>Third Tab content to be displayed here</p>  
+            </article>
+            <article id="tab-4" class="tab-panel">
+                <p>Fourth Tab content to be displayed here</p>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
