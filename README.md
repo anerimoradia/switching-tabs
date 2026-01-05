@@ -62,5 +62,8 @@ When a tab button is clicked:
 ## Project Details
 https://roadmap.sh/projects/simple-tabs
 
+## Shareable Link
+https://roadmap.sh/projects/simple-tabs/solutions?u=66c52a3b34a9226f385ab651
+
 
 
