@@ -6,7 +6,7 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #000000;
+    color: #0e0f0e;
     line-height: 1.6;
     padding: 40px;
 }
@@ -59,11 +59,11 @@ body{
     right: 0;
     height: 3px;
     width: 100%;
-    background-color: #000;
+    background-color: #89e897;
 }
 
 .tabs-content{
-    background-color: #000;
+    background-color: #5bb2ecc7;
     border-radius: 20px;
     padding: 60px;
     text-align: center;
