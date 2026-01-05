@@ -1,16 +1,16 @@
 const tabs = document.querySelectorAll('.tab');
-const contents = document.querySelectorAll('.content');
+const tabPanels = document.querySelectorAll('.tab-panel');
 
 tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-        const targetTabId = tab.CDATA_SECTION_NODE.tab;
+        const targetTabId = tab.dataset.tab;
 
         tabs.forEach((t) => {
             t.classList.remove('active');
             t.setAttribute('aria-selected', 'false');
         });
 
-       tabPanels.forEach((panel) => {
+        tabPanels.forEach((panel) => {
             panel.classList.remove('active');
         });
 
